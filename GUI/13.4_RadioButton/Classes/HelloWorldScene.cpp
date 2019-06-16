@@ -57,5 +57,5 @@ bool HelloWorld::init()
 //RadioButton单击事件回调函数
 void HelloWorld::onChangedRadioButtonGroup(RadioButton* radioButton, int index, RadioButtonGroup::EventType type)
 {
-	log("RadioButton Index : %d", index);
+	CCLOG("RadioButton Index : %d", index);
 }
